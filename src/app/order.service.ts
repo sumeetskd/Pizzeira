@@ -8,7 +8,7 @@ import { CartService } from './cart.service';
 export class OrderService {
   cartOrder:any = [];
   countOrder:number = 0;
-  url = 'http://localhost:3000/orderpizza';
+  url = 'https://pizzeira-api.onrender.com/orderpizza/allitems';
   constructor(private httpClient:HttpClient, private cartService:CartService) {
 
   }
