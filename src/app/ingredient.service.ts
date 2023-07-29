@@ -8,7 +8,7 @@ import { CartService } from './cart.service';
 export class IngredientService {
 
   cartIngredient:any = [];
-  url = 'http://localhost:3000/ingredients';
+  url = 'https://pizzeira-api.onrender.com/ingredients/allitems';
   constructor(private httpClient:HttpClient, private cartService:CartService ) {
     
   }
